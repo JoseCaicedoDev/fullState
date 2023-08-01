@@ -1,0 +1,35 @@
+/* Footer top ----------------------------*/
+footer a{
+  color: #f4f4f4;
+}
+footer a:hover{
+  color: #f4f4f4;
+}
+footer h3{
+  color: #fff;
+  padding-top: 0;
+}
+.footer_top {
+  background-color: #2d2d2e;
+  border-top: #ccc;
+  border-top: 6px solid rgba(0, 0, 0, 0.4);
+
+}
+.footer_top h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+.footer_top p{
+  color: #b7b5b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.footer_top .button{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+.link_social{
+  background-color: #0581b5;
+}
+.social{
+  color: rgb(30, 30, 30);
+}
+.social:hover{
+  color: #fff;
+}

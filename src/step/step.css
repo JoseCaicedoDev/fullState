@@ -1,0 +1,119 @@
+.full_info{
+  padding: 50px 0;
+  border-top: 1px solid #cacaca;
+  background: #fff;
+}
+.full_info .caption-head{
+  margin: 0 auto;
+}
+.full_info .info_property_h{
+  height: 135px;
+}
+.full_info .info_property_h p{
+  font-size: 13px;
+  line-height: 20px;
+}
+.full_info a{
+  color: #5c5c5c;
+  text-decoration: none;
+}
+.caption-head{
+  height:200px;
+  width:200px;
+  background-color:#fff;
+  border:6px solid #e6e6e6;
+  -webkit-border-radius:500px;
+  -moz-border-radius:500px;
+  border-radius:500px;
+  -webkit-transition:background-color .3s ease;
+  -moz-transition:background-color .3s ease;
+  -o-transition:background-color .3s ease;
+  transition:background-color .3s ease
+}
+.caption-head .caption-icon{
+  display:block;
+  height:90px;
+  margin-top:35px;
+}
+.caption-head .caption-icon:hover,.caption-head .caption-title:hover{
+  cursor:pointer
+}
+.caption-head:hover{
+  background-color:#0581b5;
+  cursor:pointer;
+  -webkit-transition:background-color .3s ease;
+  -moz-transition:background-color .3s ease;
+  -o-transition:background-color .3s ease;
+  transition:background-color .3s ease
+}
+.caption-head:hover>.caption-icon{
+  color:#fff;
+  -webkit-animation:slideFromBottom 300ms ease;
+  -moz-animation:slideFromBottom 300ms ease;
+  -o-animation:slideFromBottom 300ms ease;
+  animation:slideFromBottom 300ms ease
+}
+.caption-head:hover>.caption-title{
+  color:#fff;-webkit-animation:slideFromBottom 500ms ease;
+  -moz-animation:slideFromBottom 500ms ease;
+  -o-animation:slideFromBottom 500ms ease;
+  animation:slideFromBottom 500ms ease
+}
+.icon-big{
+  font-size:5em;
+  line-height:1.1
+}
+@-webkit-keyframes slideFromBottom{
+  from{
+    -webkit-transform:translateY(150%) scale(0.5);
+    opacity:0
+}
+to{
+  -webkit-transform:translateY(0%) scale(1);
+  opacity:1
+ }
+}
+@-moz-keyframes slideFromBottom{
+  from{
+    -moz-transform:translateY(150%) scale(0.5);opacity:0
+    }
+    to{
+      -moz-transform:translateY(0%) scale(1);
+      opacity:1
+      }
+  }
+  @-ms-keyframes slideFromBottom{
+    from{
+      -ms-transform:translateY(150%) scale(0.5);
+      opacity:0
+    }
+    to{
+      -ms-transform:translateY(0%) scale(1);
+      opacity:1
+    }
+}
+.featured-service h1{
+  font-size:58px;
+  line-height:1.1
+}
+.service-process{
+  background-image:url('../img/service-bg.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  background-position:top center;
+}
+.service-process a{
+  color: #5c5c5c;
+}
+.service-process a:hover{
+  color: none;
+}
+@media(max-width:979px){
+  .service-process{background-image:none}
+}
+.service-process .thumbnail,.service-process .thumbnail:hover{
+  border:0 none;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none
+}
